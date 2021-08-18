@@ -1,0 +1,78 @@
+[2021-08-03 09:44:17,393] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 09:44:23,430] [log.py|__console] [line:46] ERROR   : 查找alert弹出框异常-> Message: no such alert
+  (Session info: chrome=91.0.4472.164)
+  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-HN7G6VG', ip: '192.168.2.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58074}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\Users\xiaolong\AppData\Local\Temp\scoped_dir26412_453329793}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.164, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 3adeed95e44ca3582c69374552fd6b4e
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (None:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (None:-1)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (None:-1)
+    at java.lang.reflect.Constructor.newInstance (None:-1)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:158)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:678)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:701)
+    at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert (RemoteWebDriver.java:1049)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.alert (EventFiringWebDriver.java:615)
+    at org.openqa.selenium.remote.server.handler.GetAlertText.call (GetAlertText.java:30)
+    at org.openqa.selenium.remote.server.handler.GetAlertText.call (GetAlertText.java:1)
+    at java.util.concurrent.FutureTask.run (None:-1)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)
+    at java.lang.Thread.run (None:-1)
+[2021-08-03 09:45:26,429] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 09:47:57,938] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 09:48:04,059] [log.py|__console] [line:46] ERROR   : 查找alert弹出框异常-> Message: no such alert
+  (Session info: chrome=91.0.4472.164)
+  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-HN7G6VG', ip: '192.168.2.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64197}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\Users\xiaolong\AppData\Local\Temp\scoped_dir17384_1975154830}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.164, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5fe3a9f4feaba4946c2bc6d0aebcdce6
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (None:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (None:-1)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (None:-1)
+    at java.lang.reflect.Constructor.newInstance (None:-1)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:158)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:678)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:701)
+    at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert (RemoteWebDriver.java:1049)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.alert (EventFiringWebDriver.java:615)
+    at org.openqa.selenium.remote.server.handler.GetAlertText.call (GetAlertText.java:30)
+    at org.openqa.selenium.remote.server.handler.GetAlertText.call (GetAlertText.java:1)
+    at java.util.concurrent.FutureTask.run (None:-1)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)
+    at java.lang.Thread.run (None:-1)
+[2021-08-03 09:48:21,674] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 09:56:03,932] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 09:57:12,546] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x000001ED15EED048>页面中未能找到('xpath', '//*[@id="weightdiv"]/div/span')元素
+[2021-08-03 09:57:35,434] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 09:59:35,095] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:05:01,781] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:07:44,855] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:09:57,044] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:12:28,857] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:23:49,653] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:25:07,615] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:27:52,657] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:27:57,747] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x0000017F75372408>页面中未能找到('xpath', '//*[@lay-event="conf"]')元素
+[2021-08-03 10:28:15,754] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:30:53,294] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:31:58,170] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:33:00,593] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:37:17,451] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-03 10:45:27,254] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_case_00 ; 测试点-> 集团名称查询成功
+[2021-08-03 10:45:40,865] [log.py|__console] [line:40] INFO    : 检查点-> 北京小龙潜行测试集团
+[2021-08-03 10:45:41,063] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 北京小龙潜行测试集团

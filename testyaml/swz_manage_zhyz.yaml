@@ -1,0 +1,108 @@
+testinfo:
+      - id: test_swz_layui
+        title: layui
+        info: 守望者配置页面
+testcase:
+      - element_info: //input[contains(@placeholder, "请选择")]
+        find_type: XPATH
+        operate_type: select
+        info: 集团名称下拉框-00
+      - element_info: //input[contains(@placeholder, "请选择")]
+        find_type: XPATH
+        operate_type: select
+        info: 猪场名称下拉框-01
+      - element_info: //input[contains(@placeholder, "请选择")]
+        find_type: XPATH
+        operate_type: select
+        info: 栋舍列表下拉框-02
+      - element_info: //*[@id="code"]
+        find_type: XPATH
+        operate_type: click
+        info: 设备id-03
+      - element_info: //*[@id="search"]
+        find_type: XPATH
+        operate_type: click
+        info: 查询按钮-04
+      - element_info: //*[@id="reset"]
+        find_type: XPATH
+        operate_type: click
+        info: 重置按钮-05
+      - element_info: //*[@id="add"]
+        find_type: XPATH
+        operate_type: click
+        info: 添加按钮-06
+      - element_info: //*[@id="download"]
+        find_type: XPATH
+        operate_type: click
+        info: 下载导入模板按钮-07
+      - element_info: //*[@id="upload"]
+        find_type: XPATH
+        operate_type: click
+        info: 选择文件按钮-08
+      - element_info: //*[@lay-event="control"]
+        find_type: XPATH
+        operate_type: click
+        info: 控制按钮-09
+      - element_info: //*[@lay-event="edit"]
+        find_type: XPATH
+        operate_type: click
+        info: 编辑按钮-10
+      - element_info: //*[@lay-event="conf"]
+        find_type: XPATH
+        operate_type: click
+        info: 配置管理按钮-11
+      - element_info: //*[@lay-event="fieldList"]
+        find_type: XPATH
+        operate_type: click
+        info: 栏位列表按钮-12
+      - element_info: //*[@lay-event="linuxota"]
+        find_type: XPATH
+        operate_type: click
+        info: OTA升级按钮-13
+      - element_info: //*[@lay-event="faultList"]
+        find_type: XPATH
+        operate_type: click
+        info: 故障历史按钮-14
+      - element_info: //*[@lay-event="fault"]
+        find_type: XPATH
+        operate_type: click
+        info: 故障报警按钮-15
+      - element_info: //*[@lay-event="outFactory"]
+        find_type: XPATH
+        operate_type: click
+        info: 出厂按钮-16
+      - element_info: //*[@lay-event="workstation"]
+        find_type: XPATH
+        operate_type: click
+        info: 分布式测重按钮-17
+      - element_info: //dd[text()="北京小龙潜行测试集团"]
+        find_type: XPATH
+        operate_type: select
+        info: 集团名称下拉框-选择选项-18
+      - element_info: //dd[text()="小龙试验场"]
+        find_type: XPATH
+        operate_type: select
+        info: 猪场名称下拉框-选择选项-19
+      - element_info: //dd[text()="育肥一舍"]
+        find_type: XPATH
+        operate_type: select
+        info: 栋舍名称下拉框-选择选项-20
+
+
+check:
+      - element_info: //*[@data-field="groupName"]/div
+        find_type: XPATH
+        info: 获取设备列表中的集团名称-00
+      - element_info: //*[@data-field="farmName"]/div
+        find_type: XPATH
+        info: 获取设备列表中的猪场名称-01
+      - element_info: //*[@data-field="houseName"]/div
+        find_type: XPATH
+        info: 获取设备列表中的栋舍名称-02
+      - element_info: //*[@data-field="code"]/div
+        find_type: XPATH
+        info: 获取设备列表中的设备id-03
+      - element_info: //*[@placeholder="请选择集团"]
+        find_type: XPATH
+        info: 获取集团名称文本-04
+

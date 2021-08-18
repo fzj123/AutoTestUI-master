@@ -1,0 +1,2 @@
+[2021-07-15 15:44:17,395] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginZhyzPage.login object at 0x000001A139912808>页面中未能找到('xpath', '//*[@id="username"]')元素
+[2021-07-15 16:02:27,553] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginZhyzPage.login object at 0x000001CECD4C49C8>页面中未能找到('xpath', '//*[@id="username"]')元素

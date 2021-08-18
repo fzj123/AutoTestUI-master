@@ -1,0 +1,72 @@
+-
+  id: test_edit_case_00
+  detail : 修改设备名称
+  data :
+    publlic_facilityid : 'testid'
+    facility_name : 修改名称
+  check :
+     - 更新成功，请重新下发配置文件和栏位列表
+-
+  id: test_edit_case_01
+  detail : 修改设备id
+  data :
+    publlic_facilityid : 'testid'
+    facility_id: 测试设备
+  check :
+     - 更新成功，请重新下发配置文件和栏位列表
+-
+  id: test_edit_case_02
+  detail : 修改轨道编号
+  data :
+    publlic_facilityid : 'testid'
+    Track_number : 1
+  check :
+     - 更新成功，请重新下发配置文件和栏位列表
+-
+  id: test_edit_case_03
+  detail : 修改轨道类型
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 更新成功，请重新下发配置文件和栏位列表
+-
+  id: test_edit_case_04
+  detail : 修改栏位类型
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 更新成功，请重新下发配置文件和栏位列表
+-
+  id: test_edit_case_05
+  detail : 设备id输入中文
+  data :
+    publlic_facilityid : 'testid'
+    facility_id: 输入中文
+  check :
+     - 必填项不能为空
+-
+  id: test_edit_case_06
+  detail : 设备名称为空
+  data :
+    publlic_facilityid : 'testid'
+    facility_name: ''
+  check :
+     - 必填项不能为空
+-
+  id: test_edit_case_07
+  detail : 轨道编号为空
+  data :
+    publlic_facilityid : 'testid'
+    Track_number: ''
+  check :
+     - 必填项不能为空
+
+
+
+
+
+
+
+
+
+

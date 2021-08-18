@@ -1,0 +1,57 @@
+-
+  id: test_control_case_00
+  detail : 切换手动模式
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 手动模式
+-
+  id: test_control_case_01
+  detail : 点击前栏提示成功
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 是否发送向前采集指令？
+-
+  id: test_control_case_02
+  detail : 点击暂停提示成功
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 是否发送向前采集指令？
+-
+  id: test_control_case_03
+  detail : 点击后栏提示成功
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 是否发送向前采集指令？
+-
+  id: test_control_case_04
+  detail : 点击前进提示成功
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 是否发送向前采集指令？
+-
+  id: test_control_case_05
+  detail : 点击停止提示成功
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 是否发送向前采集指令？
+-
+  id: test_control_case_06
+  detail : 点击后退提示成功
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 是否发送向前采集指令？
+
+
+
+
+
+
+
+

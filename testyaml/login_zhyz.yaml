@@ -1,0 +1,25 @@
+testinfo:
+      - id: test_login_zhyz
+        title: 登录测试
+        info: 打开首页
+testcase:
+      - element_info: //*[@id="username"]
+        find_type: XPATH
+        operate_type: send_keys
+        info: 输入用户名
+      - element_info: //*[@id="password"]
+        find_type: XPATH
+        operate_type: send_keys
+        info: 输入密码
+      - element_info: //*[@id="roleID"]
+        find_type: XPATH
+        operate_type: select_by_index
+        info: 选择角色
+      - element_info: /html/body/div[1]/div[1]/div/div/form/a/div
+        find_type: XPATH
+        operate_type: click
+        info: 登陆
+check:
+      - element_info: //*[@id="navTab"]/ul/li
+        find_type: XPATH
+        info: 我的主页

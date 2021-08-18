@@ -1,0 +1,79 @@
+-
+  id: test_add_case_00
+  detail : 输入集团名称等，添加成功
+  data :
+    facility_name : test_002
+    facility_id : test_002
+    Track_number : 1
+  check :
+     - 添加成功！
+-
+  id: test_add_case_01
+  detail : 设备id不能输入中文
+  data :
+    facility_name : test_002
+    facility_id: 测试设备
+    Track_number : 1
+  check :
+     - 设备id为中文，无法输入
+-
+  id: test_add_case_02
+  detail : 设备名称不能重复
+  data :
+    facility_name : test_002
+    facility_id: test_002
+    Track_number : 1
+  check :
+     - 直播地址已存在，请先删除直播地址
+-
+  id: test_add_case_03
+  detail : 设备id不能重复
+  data :
+    facility_name : test_002
+    facility_id: test_002
+    Track_number : 1
+  check :
+     - 设备ID已存在，请修改
+-
+  id: test_add_case_04
+  detail : 集团名称为空，必填项不能为空
+  data :
+  check :
+     - 必填项不能为空
+-
+  id: test_add_case_05
+  detail : 设备名称为空，必填项不能为空
+  data :
+    facility_name: ''
+    facility_id: 11111111
+    Track_number: 1
+  check :
+     - 必填项不能为空
+-
+  id: test_add_case_06
+  detail : 设备id为空，必填项不能为空
+  data :
+    facility_name: 11111111
+    facility_id: ''
+    Track_number: 1
+  check :
+     - 必填项不能为空
+-
+  id: test_add_case_07
+  detail : 轨道编号为空，必填项不能为空
+  data :
+    facility_name: 11111111
+    facility_id: 11111111
+    Track_number: ''
+  check :
+     - 必填项不能为空
+
+
+
+
+
+
+
+
+
+

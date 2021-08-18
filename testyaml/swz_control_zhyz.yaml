@@ -1,0 +1,76 @@
+testinfo:
+      - id: test_swz_control
+        title: 守望者设备详细信息
+        info: 打开守望者控制页面
+testcase:
+      - element_info: //*[@lay-event="control"]
+        find_type: XPATH
+        operate_type: click
+        info: 栏位列表按钮-00
+      - element_info: //iframe[contains(@src,"mqttDeviceCamera.html")]
+        find_type: XPATH
+        operate_type: click
+        info: 切换iframe表单-01
+      - element_info: //*[@id="code"]
+        find_type: XPATH
+        operate_type: click
+        info: 设备管理列表，设备id输入框-02
+      - element_info: //*[@id="search"]
+        find_type: XPATH
+        operate_type: click
+        info: 设备管理列表，查询按钮-03
+      - element_info: //li[@data-status="weight"]
+        find_type: XPATH
+        operate_type: click
+        info: 侧重控制-4
+      - element_info: //li[@data-status="inventory"]
+        find_type: XPATH
+        operate_type: click
+        info: 盘点控制-5
+      - element_info: //*[@lay-skin="_switch"]
+        find_type: XPATH
+        operate_type: click
+        info: 点击自动/手动模式按钮-6
+      - element_info: //*[@lay-skin="_switch"]
+        find_type: XPATH
+        operate_type: click
+        info: 点击切换休眠/唤醒状态-7
+      - element_info: //*[@id="foreward"]
+        find_type: XPATH
+        operate_type: click
+        info: 点击前栏-8
+      - element_info: //*[@id="backward"]
+        find_type: XPATH
+        operate_type: click
+        info: 点击后栏-9
+      - element_info: //*[@id="pause"]
+        find_type: XPATH
+        operate_type: click
+        info: 点击暂停-10
+      - element_info: //*[@lay-skin="_switch"]
+        find_type: XPATH
+        operate_type: click
+        info: 开启/关闭直播-11
+      - element_info: //*[@id="go"]
+        find_type: XPATH
+        operate_type: click
+        info: 前进-12
+      - element_info: //*[@id="back"]
+        find_type: XPATH
+        operate_type: click
+        info: 后退-13
+      - element_info: //*[@id="stop"]
+        find_type: XPATH
+        operate_type: click
+        info: 停止-14
+      - element_info: //*[@lay-skin="_switch"]/em
+        find_type: XPATH
+        operate_type: click
+        info: 自动/手动模式,切换休眠/唤醒,开启/关闭直播,按钮文本获取-15
+check:
+      - element_info: //*[@id="layui-layer1"]/div
+        find_type: XPATH
+        info: 必填项不能为空
+      - element_info: //*[@lay-skin="_switch"]/em
+        find_type: XPATH
+        info: 手动模式

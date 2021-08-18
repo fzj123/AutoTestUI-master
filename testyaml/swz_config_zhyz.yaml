@@ -1,0 +1,81 @@
+testinfo:
+      - id: test_swz_config
+        title: config
+        info: 守望者配置管理页面
+testcase:
+      - element_info: //*[@lay-event="conf"]
+        find_type: XPATH
+        operate_type: click
+        info: 配置管理按钮-00
+      - element_info: //iframe[contains(@src,"mqttAddAutoExecute.html")]
+        find_type: XPATH
+        operate_type: click
+        info: 切换iframe表单-01
+      - element_info: //*[@id="code"]
+        find_type: XPATH
+        operate_type: click
+        info: 设备管理列表，设备id输入框-02
+      - element_info: //*[@id="search"]
+        find_type: XPATH
+        operate_type: click
+        info: 设备管理列表，查询按钮-03
+      - element_info: //*[@id="runTime"]
+        find_type: XPATH
+        operate_type: input
+        info: 复查输入框-04
+      - element_info: //*[@id="batteryLimit"]
+        find_type: XPATH
+        operate_type: input
+        info: 入仓电量输入框-05
+      - element_info: //*[@id="batteryMax"]
+        find_type: XPATH
+        operate_type: input
+        info: 出仓电量输入框-06
+      - element_info: //*[@id="weightdiv"]/div/span
+        find_type: XPATH
+        operate_type: click
+        info: 测重按钮-07
+      - element_info: //*[@id="photograph"]
+        find_type: XPATH
+        operate_type: input
+        info: 采集图片张数输入框-08
+      - element_info: //*[@id="stopTime"]
+        find_type: XPATH
+        operate_type: input
+        info: 采集时间输入框-09
+      - element_info: //*[@id="inventory"]/div[1]/div[1]/div/span
+        find_type: XPATH
+        operate_type: click
+        info: 大猪盘点按钮-10
+      - element_info: //*[@id="inventory"]/div[1]/div[2]/div/span
+        find_type: XPATH
+        operate_type: cllick
+        info: 小猪盘点按钮-11
+      - element_info: //*[@id="inventoryPhoto"]
+        find_type: XPATH
+        operate_type: click
+        info: 盘点图片张数输入框-12
+      - element_info: //*[@id="inventoryIntervalTime"]
+        find_type: XPATH
+        operate_type: input
+        info: 盘点间隔输入框-13
+      - element_info: /html/body/div/form/div[12]/div/div[2]/input
+        find_type: XPATH
+        operate_type: click
+        info: 添加时间按钮-14
+      - element_info: /html/body/div[1]/form/div[12]/div/div[2]/div/div/canvas[1]
+        find_type: XPATH
+        operate_type: click
+        info: 时间画布-15
+      - element_info: //*[@id="resetaa"]
+        find_type: XPATH
+        operate_type: click
+        info: 清空按钮-16
+      - element_info:  //*[@lay-filter="submit"]
+        find_type: XPATH
+        operate_type: click
+        info: 保存按钮-17
+check:
+      - element_info: //*[@id="layui-layer1"]/div
+        find_type: XPATH
+        info: 必填项不能为空

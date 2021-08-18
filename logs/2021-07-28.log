@@ -1,0 +1,190 @@
+[2021-07-28 10:05:30,548] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 10:05:44,878] [log.py|__console] [line:46] ERROR   : 查找iframe异常-> Message: No frame element found by name or id layui-layer-iframe5
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-HN7G6VG', ip: '192.168.2.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+Stacktrace:
+    at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame (RemoteWebDriver.java:997)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.frame (EventFiringWebDriver.java:591)
+    at org.openqa.selenium.remote.server.handler.SwitchToFrame.call (SwitchToFrame.java:52)
+    at org.openqa.selenium.remote.server.handler.SwitchToFrame.call (SwitchToFrame.java:1)
+    at java.util.concurrent.FutureTask.run (None:-1)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)
+    at java.lang.Thread.run (None:-1)
+[2021-07-28 10:05:44,886] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x000002E021378648>页面中未能找到(('xpath', '//*[@placeholder="请选择集团"]'),)元素
+[2021-07-28 10:29:26,064] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 10:29:53,871] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x000001BBFBCF4F08>页面中未能找到('xpath', '//*[@id="add"]')元素
+[2021-07-28 10:30:22,770] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 10:30:40,075] [log.py|__console] [line:46] ERROR   : 查找iframe异常-> Message: No frame element found by name or id layui-layer-iframe5
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-HN7G6VG', ip: '192.168.2.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+Stacktrace:
+    at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame (RemoteWebDriver.java:997)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.frame (EventFiringWebDriver.java:591)
+    at org.openqa.selenium.remote.server.handler.SwitchToFrame.call (SwitchToFrame.java:52)
+    at org.openqa.selenium.remote.server.handler.SwitchToFrame.call (SwitchToFrame.java:1)
+    at java.util.concurrent.FutureTask.run (None:-1)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)
+    at java.lang.Thread.run (None:-1)
+[2021-07-28 10:30:40,081] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x0000016535438BC8>页面中未能找到(('xpath', '//*[@placeholder="请选择集团"]'),)元素
+[2021-07-28 10:31:22,061] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 10:31:39,770] [log.py|__console] [line:46] ERROR   : 查找iframe异常-> Message: No frame element found by name or id layui-layer-iframe5
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-HN7G6VG', ip: '192.168.2.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+Stacktrace:
+    at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame (RemoteWebDriver.java:997)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.frame (EventFiringWebDriver.java:591)
+    at org.openqa.selenium.remote.server.handler.SwitchToFrame.call (SwitchToFrame.java:52)
+    at org.openqa.selenium.remote.server.handler.SwitchToFrame.call (SwitchToFrame.java:1)
+    at java.util.concurrent.FutureTask.run (None:-1)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)
+    at java.lang.Thread.run (None:-1)
+[2021-07-28 10:31:39,776] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x000002671EC02D48>页面中未能找到(('xpath', '//*[@placeholder="请选择集团"]'),)元素
+[2021-07-28 10:31:56,926] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 10:41:15,529] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 10:43:38,546] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 10:44:32,817] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x0000023B43508488>页面中未能找到(('xpath', '//*[@placeholder="请选择集团"]'),)元素
+[2021-07-28 10:45:55,962] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 10:46:03,699] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x000001EF5D248C48>页面中未能找到(('xpath', '//*[@placeholder="请选择集团"]'),)元素
+[2021-07-28 11:05:25,431] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 11:05:33,115] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x000001DEF88F8C88>页面中未能找到(('xpath', '//*[@placeholder="请选择集团"]'),)元素
+[2021-07-28 11:06:01,727] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 11:06:09,004] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x000001B5061A22C8>页面中未能找到(('xpath', '//*[@id="deviceName"]'),)元素
+[2021-07-28 11:33:29,192] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 11:33:36,575] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x0000025BB0F85848>页面中未能找到(('xpath', '//*[@id="deviceName"]'),)元素
+[2021-07-28 11:33:57,512] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 11:34:25,118] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到(('xpath', '//*[@id="deviceName"]'),)元素
+[2021-07-28 11:36:24,272] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '//*[@id="deviceName"]')元素
+[2021-07-28 11:36:32,731] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '//*[@id="deviceName"]')元素
+[2021-07-28 11:40:42,428] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '//*[@id="deviceName"]')元素
+[2021-07-28 11:40:58,484] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '//*')元素
+[2021-07-28 11:40:59,116] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '//*')元素
+[2021-07-28 11:40:59,295] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '//*')元素
+[2021-07-28 11:40:59,441] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '//*')元素
+[2021-07-28 11:40:59,583] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '//*')元素
+[2021-07-28 11:41:00,547] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '')元素
+[2021-07-28 11:41:00,764] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '')元素
+[2021-07-28 11:41:00,936] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '')元素
+[2021-07-28 11:41:01,082] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '')元素
+[2021-07-28 11:41:01,224] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000288D57EE5C8>页面中未能找到('By.XPATH', '')元素
+[2021-07-28 11:42:06,826] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 11:44:55,303] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000128F2FB8AC8>页面中未能找到(('xpath', '//*[@placeholder="请选择集团"]'),)元素
+[2021-07-28 11:51:10,113] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 11:51:25,227] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 11:52:30,775] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 11:53:12,680] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 11:54:18,049] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 12:04:38,424] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 12:38:54,619] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 12:42:56,749] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 12:43:26,342] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 12:46:02,092] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 12:46:29,635] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x0000027119764988>页面中未能找到(('xpath', '//*[@placeholder="请选择集团"]'),)元素
+[2021-07-28 12:48:00,120] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x0000027119764988>页面中未能找到(('xpath', '//*[@placeholder="请选择集团"]'),)元素
+[2021-07-28 12:49:36,448] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 12:49:52,822] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 12:50:52,029] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x000002A199D5AC48>页面中未能找到(('xpath', '//*[@placeholder="请选择集团"]'),)元素
+[2021-07-28 12:51:11,733] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 12:51:38,901] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 12:58:43,920] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:00:18,681] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:10:09,458] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:12:02,761] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:16:38,552] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:17:10,448] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:18:04,776] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:27:40,738] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:30:28,484] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:48:44,602] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:55:11,089] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:56:28,208] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x0000029E4DA66B08>页面中未能找到(('xpath', '//*[@id="deviceName"]'),)元素
+[2021-07-28 13:56:45,415] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 13:56:52,682] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x0000024427C17C08>页面中未能找到(('xpath', '//*[@id="deviceName"]'),)元素
+[2021-07-28 14:02:08,724] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 14:05:16,022] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 14:12:11,018] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_case_00 ; 测试点-> 集团名称查询成功
+[2021-07-28 14:12:24,556] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzManageZhyzPage.manage object at 0x0000020AE1033CC8>页面中未能找到(('xpath', '//*[@data-field="groupName"]/div'),)元素
+[2021-07-28 14:13:11,687] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 14:14:07,849] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 14:15:47,841] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 14:16:18,558] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000190BBEA5BC8>页面中未能找到('xpath', '//*[@placeholder="请选择猪场"]')元素
+[2021-07-28 14:18:39,435] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 14:21:38,885] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 14:38:33,924] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 14:45:57,772] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 14:46:45,774] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 14:48:40,986] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 14:54:52,607] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:01:17,082] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:08:04,538] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:11:39,328] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:13:06,890] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:13:32,279] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:16:42,297] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:17:28,223] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:25:54,666] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:31:04,841] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:33:13,454] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:44:35,331] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:51:18,256] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:55:03,778] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:57:37,318] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 15:59:40,843] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 16:02:20,636] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 16:07:06,726] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 16:10:14,125] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 16:13:06,356] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 16:13:22,726] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x00000227CFBEDEC8>页面中未能找到('xpath', '//*[@id="add"]')元素
+[2021-07-28 16:13:45,139] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 16:14:03,250] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x000002176FE59FC8>页面中未能找到('xpath', '//*[@id="add"]')元素
+[2021-07-28 16:14:27,170] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 16:15:50,531] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 16:16:03,607] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x000001F98B4DC108>页面中未能找到('xpath', '//*[@id="add"]')元素
+[2021-07-28 16:16:20,134] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 16:20:08,455] [log.py|__console] [line:40] INFO    : 检查点-> 设备ID已存在，请修改
+[2021-07-28 16:22:00,845] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 16:27:09,818] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 16:27:47,254] [log.py|__console] [line:40] INFO    : 检查点-> 设备ID已存在，请修改
+[2021-07-28 17:21:37,028] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 17:22:01,137] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 17:24:41,294] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 17:24:57,408] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x000001E18C4F9A88>页面中未能找到('xpath', '//*[@id="add"]')元素
+[2021-07-28 17:25:14,294] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 17:25:48,943] [log.py|__console] [line:46] ERROR   : 查找alert弹出框异常-> Message: no such alert
+  (Session info: chrome=91.0.4472.164)
+  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-HN7G6VG', ip: '192.168.2.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57994}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\Users\xiaolong\AppData\Local\Temp\scoped_dir15376_1737819307}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.164, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 9b9d7c814a3e36fa2d4057b09e3b9890
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (None:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (None:-1)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (None:-1)
+    at java.lang.reflect.Constructor.newInstance (None:-1)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:158)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:678)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:701)
+    at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert (RemoteWebDriver.java:1049)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.alert (EventFiringWebDriver.java:615)
+    at org.openqa.selenium.remote.server.handler.GetAlertText.call (GetAlertText.java:30)
+    at org.openqa.selenium.remote.server.handler.GetAlertText.call (GetAlertText.java:1)
+    at java.util.concurrent.FutureTask.run (None:-1)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)
+    at java.lang.Thread.run (None:-1)
+[2021-07-28 18:19:11,361] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功
+[2021-07-28 18:19:27,669] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzAddZhyzPage.facilityAdd object at 0x0000026A10B9DDC8>页面中未能找到('xpath', '//*[@id="add"]')元素
+[2021-07-28 18:20:48,418] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_add_case_00 ; 测试点-> 输入集团名称等，添加成功

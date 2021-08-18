@@ -1,0 +1,57 @@
+testinfo:
+      - id: test_swz_fieldList
+        title: fieldList
+        info: 守望者栏位列表页面
+testcase:
+      - element_info: //*[@lay-event="fieldList"]
+        find_type: XPATH
+        operate_type: click
+        info: 栏位列表按钮-00
+      - element_info: //iframe[contains(@src,"mqttAddFieldList.html")]
+        find_type: XPATH
+        operate_type: click
+        info: 切换iframe表单-01
+      - element_info: //*[@id="code"]
+        find_type: XPATH
+        operate_type: click
+        info: 设备管理列表，设备id输入框-02
+      - element_info: //*[@id="search"]
+        find_type: XPATH
+        operate_type: click
+        info: 设备管理列表，查询按钮-03
+      - element_info: //*[@id="test5"]/div/div[1]/div[2]/input
+        find_type: XPATH
+        operate_type: input
+        info: 关键字检索输入框-04
+      - element_info: //*[@id="test5"]/div/div[1]/ul/li[1]/div/i
+        find_type: XPATH
+        operate_type: input
+        info: 待选择栏位复选框-05
+      - element_info: //*[@id="test5"]/div/div[3]/ul/li[1]/div/i
+        find_type: XPATH
+        operate_type: input
+        info: 已选择栏位复选框-06
+      - element_info: //*[@id="test5"]/div/div[2]/button[1]
+        find_type: XPATH
+        operate_type: input
+        info: 向右侧移动按钮-07
+      - element_info: //*[@id="test5"]/div/div[2]/button[2]
+        find_type: XPATH
+        operate_type: input
+        info: 向左侧移动按钮-08
+      - element_info: //*[@id="usingGrid"]/div[2]/button[1]
+        find_type: XPATH
+        operate_type: input
+        info: 向上移动按钮-09
+      - element_info: //*[@id="moveDown"]/i
+        find_type: XPATH
+        operate_type: input
+        info: 向下移动按钮-10
+      - element_info: //button[text()="提交"]
+        find_type: XPATH
+        operate_type: input
+        info: 提交按钮-11
+check:
+      - element_info: //*[@id="layui-layer1"]/div
+        find_type: XPATH
+        info: 必填项不能为空

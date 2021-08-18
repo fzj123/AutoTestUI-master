@@ -1,0 +1,93 @@
+[2021-07-26 13:52:44,406] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.1 ; 测试点-> 集团名称查询成功
+[2021-07-26 13:52:52,607] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.2 ; 测试点-> 猪场名称查询成功
+[2021-07-26 14:29:01,686] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.1 ; 测试点-> 集团名称查询成功
+[2021-07-26 14:35:03,174] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.1 ; 测试点-> 集团名称查询成功
+[2021-07-26 14:48:35,662] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.1 ; 测试点-> 集团名称查询成功
+[2021-07-26 14:48:47,735] [log.py|__console] [line:40] INFO    : 检查点-> 集团名称
+[2021-07-26 14:49:37,904] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.1 ; 测试点-> 集团名称查询成功
+[2021-07-26 14:49:49,743] [log.py|__console] [line:40] INFO    : 检查点-> 北京小龙潜行测试集团
+[2021-07-26 14:52:36,970] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.1 ; 测试点-> 集团名称查询成功
+[2021-07-26 14:52:48,790] [log.py|__console] [line:40] INFO    : 检查点-> 北京小龙潜行测试集团
+[2021-07-26 14:52:48,976] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 北京小龙潜行测试集团
+[2021-07-26 15:09:31,678] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.1 ; 测试点-> 集团名称查询成功
+[2021-07-26 15:09:41,486] [log.py|__console] [line:40] INFO    : 检查点-> 拉塞特集团
+[2021-07-26 15:09:41,692] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.2 ; 测试点-> 猪场名称查询成功
+[2021-07-26 15:09:51,536] [log.py|__console] [line:40] INFO    : 检查点-> 拉塞特猪场
+[2021-07-26 15:11:23,961] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.1 ; 测试点-> 集团名称查询成功
+[2021-07-26 15:11:36,787] [log.py|__console] [line:40] INFO    : 检查点-> 拉塞特集团
+[2021-07-26 15:11:36,995] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.2 ; 测试点-> 猪场名称查询成功
+[2021-07-26 15:11:49,859] [log.py|__console] [line:40] INFO    : 检查点-> 拉塞特猪场
+[2021-07-26 15:13:40,370] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.1 ; 测试点-> 集团名称查询成功
+[2021-07-26 15:13:53,209] [log.py|__console] [line:40] INFO    : 检查点-> 北京小龙潜行测试集团
+[2021-07-26 15:13:53,394] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 北京小龙潜行测试集团
+[2021-07-26 15:13:53,433] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage001.2 ; 测试点-> 猪场名称查询成功
+[2021-07-26 15:14:06,289] [log.py|__console] [line:40] INFO    : 检查点-> 小龙试验场
+[2021-07-26 15:14:06,472] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 小龙试验场
+[2021-07-26 16:38:34,916] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_05 ; 测试点-> 添加设备成功
+[2021-07-26 16:38:41,475] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-26 16:38:41,475] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-26 16:38:41,506] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_02 ; 测试点-> 栋舍列表查询成功
+[2021-07-26 16:38:56,633] [log.py|__console] [line:40] INFO    : 检查点-> 育肥一舍
+[2021-07-26 16:38:56,843] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_06 ; 测试点-> 下载导入模板成功
+[2021-07-26 16:39:03,388] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-26 16:39:03,389] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-26 16:39:03,431] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_03 ; 测试点-> 输入设备id查询成功
+[2021-07-26 16:39:16,213] [log.py|__console] [line:40] INFO    : 检查点-> d412438bd348
+[2021-07-26 16:39:16,440] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_00 ; 测试点-> 集团名称查询成功
+[2021-07-26 16:39:29,372] [log.py|__console] [line:40] INFO    : 检查点-> 北京小龙潜行测试集团
+[2021-07-26 16:39:29,557] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 北京小龙潜行测试集团
+[2021-07-26 16:39:29,592] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_07 ; 测试点-> 选择文件，批量添加设备成功
+[2021-07-26 16:39:36,132] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-26 16:39:36,133] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-26 16:39:36,171] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_01 ; 测试点-> 猪场名称查询成功
+[2021-07-26 16:39:49,009] [log.py|__console] [line:40] INFO    : 检查点-> 小龙试验场
+[2021-07-26 16:39:49,210] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 小龙试验场
+[2021-07-26 16:39:49,250] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_04 ; 测试点-> 重置检索条件成功
+[2021-07-26 16:39:59,108] [log.py|__console] [line:40] INFO    : 检查点-> d41243a0238c
+[2021-07-26 16:56:08,499] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_05 ; 测试点-> 添加设备成功
+[2021-07-26 16:56:15,062] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-26 16:56:15,062] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-26 16:56:15,094] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_02 ; 测试点-> 栋舍列表查询成功
+[2021-07-26 16:56:30,168] [log.py|__console] [line:40] INFO    : 检查点-> 育肥一舍
+[2021-07-26 16:56:30,353] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 育肥一舍
+[2021-07-26 16:56:30,384] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_06 ; 测试点-> 下载导入模板成功
+[2021-07-26 16:56:37,073] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-26 16:56:37,074] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-26 16:56:37,113] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_03 ; 测试点-> 输入设备id查询成功
+[2021-07-26 16:56:49,815] [log.py|__console] [line:40] INFO    : 检查点-> d412438bd348
+[2021-07-26 16:56:50,010] [log.py|__console] [line:40] INFO    : 返回实际结果是->: d412438bd348
+[2021-07-26 16:56:50,041] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_00 ; 测试点-> 集团名称查询成功
+[2021-07-26 16:57:02,911] [log.py|__console] [line:40] INFO    : 检查点-> 北京小龙潜行测试集团
+[2021-07-26 16:57:03,127] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 北京小龙潜行测试集团
+[2021-07-26 16:57:03,160] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_08 ; 测试点-> 选择设备点击控制按钮，弹出控制页面成功
+[2021-07-26 16:57:09,802] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-26 16:57:09,803] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-26 16:57:09,844] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_01 ; 测试点-> 猪场名称查询成功
+[2021-07-26 16:57:22,742] [log.py|__console] [line:40] INFO    : 检查点-> 小龙试验场
+[2021-07-26 16:57:22,926] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 小龙试验场
+[2021-07-26 16:57:22,958] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_04 ; 测试点-> 重置检索条件成功
+[2021-07-26 17:00:51,450] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_05 ; 测试点-> 弹出添加设备页面
+[2021-07-26 17:00:57,996] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-26 17:00:57,997] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-26 17:00:58,031] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_08 ; 测试点-> 选择设备点击控制按钮，弹出控制页面成功
+[2021-07-26 17:01:04,635] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-26 17:01:04,635] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-26 17:01:04,665] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_02 ; 测试点-> 栋舍列表查询成功
+[2021-07-26 17:01:19,712] [log.py|__console] [line:40] INFO    : 检查点-> 育肥一舍
+[2021-07-26 17:01:19,897] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 育肥一舍
+[2021-07-26 17:01:19,931] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_06 ; 测试点-> 下载导入模板成功
+[2021-07-26 17:01:26,439] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-26 17:01:26,440] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-26 17:01:26,476] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_03 ; 测试点-> 输入设备id查询成功
+[2021-07-26 17:01:39,244] [log.py|__console] [line:40] INFO    : 检查点-> d412438bd348
+[2021-07-26 17:01:39,457] [log.py|__console] [line:40] INFO    : 返回实际结果是->: d412438bd348
+[2021-07-26 17:01:39,488] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_00 ; 测试点-> 集团名称查询成功
+[2021-07-26 17:01:52,312] [log.py|__console] [line:40] INFO    : 检查点-> 北京小龙潜行测试集团
+[2021-07-26 17:01:52,496] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 北京小龙潜行测试集团
+[2021-07-26 17:01:52,528] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_07 ; 测试点-> 选择文件，弹出导入模板页面
+[2021-07-26 17:01:59,331] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-26 17:01:59,332] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-26 17:01:59,363] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_01 ; 测试点-> 猪场名称查询成功
+[2021-07-26 17:02:24,335] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzManageZhyzPage.manage object at 0x00000224973EE808>页面中未能找到('xpath', '//*[@placeholder="请选择猪场"]')元素
+[2021-07-26 17:02:24,517] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_04 ; 测试点-> 重置检索条件成功
+[2021-07-26 17:02:34,339] [log.py|__console] [line:40] INFO    : 检查点-> 

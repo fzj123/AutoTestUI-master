@@ -1,0 +1,135 @@
+[2021-07-27 09:13:00,933] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_05 ; 测试点-> 弹出添加设备页面
+[2021-07-27 09:13:07,464] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 09:13:07,464] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 09:13:07,507] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_10 ; 测试点-> 选择设备点击配置管理按钮，弹出配置管理页面成功
+[2021-07-27 09:13:14,070] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 09:13:14,071] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 09:13:14,105] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_08 ; 测试点-> 选择设备点击控制按钮，弹出控制页面成功
+[2021-07-27 09:13:20,752] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 09:13:20,752] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 09:13:20,788] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_02 ; 测试点-> 栋舍列表查询成功
+[2021-07-27 09:13:35,865] [log.py|__console] [line:40] INFO    : 检查点-> 育肥一舍
+[2021-07-27 09:13:36,059] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 育肥一舍
+[2021-07-27 09:13:36,097] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_06 ; 测试点-> 下载导入模板成功
+[2021-07-27 09:13:42,658] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 09:13:42,659] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 09:13:42,696] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_09 ; 测试点-> 选择设备点击编辑按钮，弹出编辑页面成功
+[2021-07-27 09:13:49,215] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 09:13:49,216] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 09:13:49,255] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_03 ; 测试点-> 输入设备id查询成功
+[2021-07-27 09:14:02,188] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_13 ; 测试点-> 选择设备点击故障历史按钮，弹出故障历史页面成功
+[2021-07-27 09:14:08,848] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 09:14:08,849] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 09:14:08,880] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_14 ; 测试点-> 选择设备点击故障报警按钮，弹出故障报警页面成功
+[2021-07-27 09:14:15,397] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 09:14:15,398] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 09:14:15,433] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_11 ; 测试点-> 选择设备点击栏位管理按钮，弹出栏位管理页面成功
+[2021-07-27 09:14:21,956] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 09:14:21,957] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 09:14:21,988] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_00 ; 测试点-> 集团名称查询成功
+[2021-07-27 09:14:34,884] [log.py|__console] [line:40] INFO    : 检查点-> 北京小龙潜行测试集团
+[2021-07-27 09:14:35,081] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 北京小龙潜行测试集团
+[2021-07-27 09:14:35,118] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_07 ; 测试点-> 选择文件，弹出导入模板页面
+[2021-07-27 09:14:41,601] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 09:14:41,601] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 09:14:41,638] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_12 ; 测试点-> 选择设备点击OTA升级按钮，弹出OTA升级页面成功
+[2021-07-27 09:14:48,129] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 09:14:48,130] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 09:14:48,163] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_15 ; 测试点-> 选择设备点击分布式测重按钮，弹出分布式测重页面成功
+[2021-07-27 09:14:54,586] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_01 ; 测试点-> 猪场名称查询成功
+[2021-07-27 09:14:54,938] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_04 ; 测试点-> 重置检索条件成功
+[2021-07-27 10:27:26,116] [log.py|__console] [line:46] ERROR   : <public.page_obj.loginZhyzPage.login object at 0x00000181E2E05308>页面中未能找到('xpath', '//*[@id="username"]')元素
+[2021-07-27 10:33:02,705] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_05 ; 测试点-> 弹出添加设备页面
+[2021-07-27 10:33:28,960] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzManageZhyzPage.manage object at 0x000002400B9C8088>页面中未能找到('xpath', '//*[@id="add"]')元素
+[2021-07-27 10:33:29,175] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_10 ; 测试点-> 选择设备点击配置管理按钮，弹出配置管理页面成功
+[2021-07-27 10:33:35,724] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:33:35,724] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:33:35,755] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_08 ; 测试点-> 选择设备点击控制按钮，弹出控制页面成功
+[2021-07-27 10:33:42,374] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:33:42,375] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:33:42,414] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_02 ; 测试点-> 栋舍列表查询成功
+[2021-07-27 10:33:57,496] [log.py|__console] [line:40] INFO    : 检查点-> 育肥一舍
+[2021-07-27 10:33:57,679] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 育肥一舍
+[2021-07-27 10:33:57,715] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_06 ; 测试点-> 下载导入模板成功
+[2021-07-27 10:34:04,232] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:34:04,233] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:34:04,265] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_09 ; 测试点-> 选择设备点击编辑按钮，弹出编辑页面成功
+[2021-07-27 10:34:10,743] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:34:10,744] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:34:10,781] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_03 ; 测试点-> 输入设备id查询成功
+[2021-07-27 10:34:23,675] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_13 ; 测试点-> 选择设备点击故障历史按钮，弹出故障历史页面成功
+[2021-07-27 10:34:30,196] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:34:30,196] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:34:30,236] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_14 ; 测试点-> 选择设备点击故障报警按钮，弹出故障报警页面成功
+[2021-07-27 10:34:36,715] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:34:36,716] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:34:36,757] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_11 ; 测试点-> 选择设备点击栏位管理按钮，弹出栏位管理页面成功
+[2021-07-27 10:34:43,254] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:34:43,254] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:34:43,287] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_00 ; 测试点-> 集团名称查询成功
+[2021-07-27 10:34:56,108] [log.py|__console] [line:40] INFO    : 检查点-> 北京小龙潜行测试集团
+[2021-07-27 10:34:56,293] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 北京小龙潜行测试集团
+[2021-07-27 10:34:56,341] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_07 ; 测试点-> 选择文件，弹出导入模板页面
+[2021-07-27 10:35:02,848] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:35:02,849] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:35:02,890] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_12 ; 测试点-> 选择设备点击OTA升级按钮，弹出OTA升级页面成功
+[2021-07-27 10:35:09,459] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:35:09,459] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:35:09,490] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_15 ; 测试点-> 选择设备点击分布式测重按钮，弹出分布式测重页面成功
+[2021-07-27 10:35:15,965] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:35:15,965] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:35:16,001] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_01 ; 测试点-> 猪场名称查询成功
+[2021-07-27 10:35:28,839] [log.py|__console] [line:40] INFO    : 检查点-> 小龙试验场
+[2021-07-27 10:35:29,037] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 小龙试验场
+[2021-07-27 10:35:29,073] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_04 ; 测试点-> 重置检索条件成功
+[2021-07-27 10:35:38,994] [log.py|__console] [line:40] INFO    : 检查点-> 请选择集团
+[2021-07-27 10:35:39,183] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 请选择集团
+[2021-07-27 10:44:09,867] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_05 ; 测试点-> 弹出添加设备页面
+[2021-07-27 10:44:17,669] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:44:17,669] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:44:17,701] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_10 ; 测试点-> 选择设备点击配置管理按钮，弹出配置管理页面成功
+[2021-07-27 10:44:24,203] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:44:24,203] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:44:24,245] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_08 ; 测试点-> 选择设备点击控制按钮，弹出控制页面成功
+[2021-07-27 10:44:30,895] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:44:30,895] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:44:30,935] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_02 ; 测试点-> 栋舍列表查询成功
+[2021-07-27 10:44:46,003] [log.py|__console] [line:40] INFO    : 检查点-> 育肥一舍
+[2021-07-27 10:44:46,187] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 育肥一舍
+[2021-07-27 10:44:46,227] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_06 ; 测试点-> 下载导入模板成功
+[2021-07-27 10:44:52,764] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:44:52,765] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:44:52,796] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_09 ; 测试点-> 选择设备点击编辑按钮，弹出编辑页面成功
+[2021-07-27 10:44:59,331] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:44:59,331] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:44:59,371] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_03 ; 测试点-> 输入设备id查询成功
+[2021-07-27 10:45:12,329] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_13 ; 测试点-> 选择设备点击故障历史按钮，弹出故障历史页面成功
+[2021-07-27 10:45:18,838] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:45:18,839] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:45:18,874] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_14 ; 测试点-> 选择设备点击故障报警按钮，弹出故障报警页面成功
+[2021-07-27 10:45:25,367] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:45:25,368] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:45:25,406] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_11 ; 测试点-> 选择设备点击栏位管理按钮，弹出栏位管理页面成功
+[2021-07-27 10:45:31,934] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:45:31,934] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:45:31,968] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_00 ; 测试点-> 集团名称查询成功
+[2021-07-27 10:45:44,790] [log.py|__console] [line:40] INFO    : 检查点-> 北京小龙潜行测试集团
+[2021-07-27 10:45:44,971] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 北京小龙潜行测试集团
+[2021-07-27 10:45:45,008] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_07 ; 测试点-> 选择文件，弹出导入模板页面
+[2021-07-27 10:45:51,570] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:45:51,571] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:45:51,614] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_12 ; 测试点-> 选择设备点击OTA升级按钮，弹出OTA升级页面成功
+[2021-07-27 10:45:58,084] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:45:58,084] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:45:58,113] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_15 ; 测试点-> 选择设备点击分布式测重按钮，弹出分布式测重页面成功
+[2021-07-27 10:46:04,632] [log.py|__console] [line:40] INFO    : 检查点-> 查看截图
+[2021-07-27 10:46:04,633] [log.py|__console] [line:40] INFO    : 显示截图结果
+[2021-07-27 10:46:04,673] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_01 ; 测试点-> 猪场名称查询成功
+[2021-07-27 10:46:17,666] [log.py|__console] [line:40] INFO    : 检查点-> 小龙试验场
+[2021-07-27 10:46:17,867] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 小龙试验场
+[2021-07-27 10:46:17,908] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_04 ; 测试点-> 重置检索条件成功
+[2021-07-27 10:46:27,776] [log.py|__console] [line:40] INFO    : 检查点-> 请选择集团
+[2021-07-27 10:46:27,962] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 请选择集团
+[2021-07-27 15:32:45,876] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_manage_04 ; 测试点-> 重置检索条件成功
+[2021-07-27 15:32:56,914] [log.py|__console] [line:40] INFO    : 检查点-> 请选择集团
+[2021-07-27 15:32:57,102] [log.py|__console] [line:40] INFO    : 返回实际结果是->: 请选择集团

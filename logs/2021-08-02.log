@@ -1,0 +1,58 @@
+[2021-08-02 09:06:03,743] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 09:06:20,081] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x000001F109CABFC8>页面中未能找到('xpath', '/html/body/div/form/div[12]/div/div[2]/input')元素
+[2021-08-02 09:09:56,903] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 09:10:13,473] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x000002019CB9E988>页面中未能找到('xpath', '//iframe[contains(@src,"mqttAddDeviceInfo.html")]')元素
+[2021-08-02 09:10:25,225] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x000002019CB9E988>页面中未能找到('xpath', '/html/body/div/form/div[12]/div/div[2]/input')元素
+[2021-08-02 09:11:37,366] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 09:11:53,414] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x0000020CBFA2E448>页面中未能找到('xpath', '//iframe[contains(@src,"mqttAddDeviceInfo.html")]')元素
+[2021-08-02 09:13:26,254] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 09:13:46,927] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x000001DD4E961AC8>页面中未能找到('xpath', '//iframe[contains(@src,"mqttAddDeviceInfo.html")]')元素
+[2021-08-02 09:16:03,271] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 09:16:19,948] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x00000244D63B2748>页面中未能找到('xpath', '//iframe[contains(@src,"mqttAddDeviceInfo.html")]')元素
+[2021-08-02 09:17:37,525] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 09:17:53,589] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x000001DA7BBB2CC8>页面中未能找到('xpath', '//iframe[contains(@src,"mqttAddDeviceInfo.html")]')元素
+[2021-08-02 09:21:37,516] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 09:22:01,104] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 09:22:17,201] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x0000020B41A5B8C8>页面中未能找到('xpath', '//iframe[contains(@src,"mqttAddDeviceInfo.html")]')元素
+[2021-08-02 09:43:30,868] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 09:43:47,403] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x0000013C1A132648>页面中未能找到('xpath', '//iframe[contains(@src,"mqttAddDeviceInfo.html")]')元素
+[2021-08-02 09:47:25,034] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 09:47:41,157] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x0000026BD5E91D08>页面中未能找到('xpath', '//iframe[contains(@src,"mqttAddDeviceInfo.html")]')元素
+[2021-08-02 09:47:52,728] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x0000026BD5E91D08>页面中未能找到('xpath', '/html/body/div/form/div[12]/div/div[2]/input')元素
+[2021-08-02 09:53:24,144] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 09:53:40,323] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x000002157E808408>页面中未能找到('xpath', '//iframe[contains(@src,"mqttAddDeviceInfo.html")]')元素
+[2021-08-02 09:53:50,604] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x000002157E808408>页面中未能找到('xpath', '//*[@id="runTime"]')元素
+[2021-08-02 10:01:33,114] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 10:01:54,673] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x0000018B5291A2C8>页面中未能找到('xpath', '//*[@id="runTime"]')元素
+[2021-08-02 10:02:04,689] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 10:02:10,262] [log.py|__console] [line:46] ERROR   : 查找alert弹出框异常-> Message: no such alert
+  (Session info: chrome=91.0.4472.164)
+  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-HN7G6VG', ip: '192.168.2.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49307}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\Users\xiaolong\AppData\Local\Temp\scoped_dir21588_1852872021}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.164, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: ec2614a02336162a769007a535e747c3
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (None:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (None:-1)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (None:-1)
+    at java.lang.reflect.Constructor.newInstance (None:-1)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:206)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:158)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:678)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:701)
+    at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert (RemoteWebDriver.java:1049)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.alert (EventFiringWebDriver.java:615)
+    at org.openqa.selenium.remote.server.handler.GetAlertText.call (GetAlertText.java:30)
+    at org.openqa.selenium.remote.server.handler.GetAlertText.call (GetAlertText.java:1)
+    at java.util.concurrent.FutureTask.run (None:-1)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)
+    at java.lang.Thread.run (None:-1)
+[2021-08-02 10:02:44,963] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 10:02:55,300] [log.py|__console] [line:46] ERROR   : <public.page_obj.swzConfigZhyzPage.facilityConfig object at 0x000001E1675369C8>页面中未能找到('xpath', '//*[@id="code"]')元素
+[2021-08-02 10:03:07,056] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功
+[2021-08-02 10:06:56,502] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_config_case_00 ; 测试点-> 修改配置保存成功

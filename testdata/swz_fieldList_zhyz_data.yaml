@@ -1,0 +1,54 @@
+-
+  id: test_fieldList_case_00
+  detail : 点击提交按钮，提示配置成功！
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 配置成功！
+-
+  id: test_fieldList_case_01
+  detail : 关键词搜索
+  data :
+    publlic_facilityid : 'testid'
+    key_query : '充电仓'
+  check :
+     - 截图
+-
+  id: test_fieldList_case_02
+  detail : 待选择栏位移动到已选择栏位
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 截图
+-
+  id: test_fieldList_case_03
+  detail : 已选择栏位移动到待选择栏位
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 截图
+-
+  id: test_fieldList_case_04
+  detail : 已选择栏位，数据向上移动
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 截图
+-
+  id: test_fieldList_case_05
+  detail : 已选择栏位，数据向下移动
+  data :
+    publlic_facilityid : 'testid'
+  check :
+     - 截图
+
+
+
+
+
+
+
+
+
+
+
