@@ -131,6 +131,7 @@ class facilityEdit(Page):
         self.edit_click()
         self.switch_editpage()
         time.sleep(1)
+        self.facilityaname_clear()
         self.facilityaname_input(facilityname)
         self.save_click()
 
@@ -154,6 +155,7 @@ class facilityEdit(Page):
         self.edit_click()
         self.switch_editpage()
         time.sleep(1)
+        self.trackNo_clear()
         self.trackNo_input(trackid)
         self.save_click()
 

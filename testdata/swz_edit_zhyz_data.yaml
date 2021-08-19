@@ -5,15 +5,15 @@
     publlic_facilityid : 'testid'
     facility_name : 修改名称
   check :
-     - 更新成功，请重新下发配置文件和栏位列表
+    - 更新成功，请重新下发配置文件和栏位列表
 -
   id: test_edit_case_01
   detail : 修改设备id
   data :
     publlic_facilityid : 'testid'
-    facility_id: 测试设备
+    facility_id: testid
   check :
-     - 更新成功，请重新下发配置文件和栏位列表
+    - 更新成功，请重新下发配置文件和栏位列表
 -
   id: test_edit_case_02
   detail : 修改轨道编号

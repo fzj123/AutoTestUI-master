@@ -75,15 +75,15 @@ testcase:
         find_type: XPATH
         operate_type: click
         info: 分布式测重按钮-17
-      - element_info: //dd[text()="北京小龙潜行测试集团"]
+      - element_info: //dd[text()="哈尔滨小龙集团"]
         find_type: XPATH
         operate_type: select
         info: 集团名称下拉框-选择选项-18
-      - element_info: //dd[text()="小龙试验场"]
+      - element_info: //dd[text()="哈尔滨小龙猪场"]
         find_type: XPATH
         operate_type: select
         info: 猪场名称下拉框-选择选项-19
-      - element_info: //dd[text()="育肥一舍"]
+      - element_info: //dd[text()="哈尔滨小龙栋舍"]
         find_type: XPATH
         operate_type: select
         info: 栋舍名称下拉框-选择选项-20

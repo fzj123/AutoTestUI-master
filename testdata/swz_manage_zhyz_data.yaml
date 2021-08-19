@@ -84,12 +84,6 @@
   check :
      - 故障历史成功弹出
 -
-  id: test_manage_case_14
-  detail : 选择设备点击故障报警按钮，弹出故障报警页面成功
-  data:
-  check :
-     - 故障报警成功弹出
--
   id: test_manage_case_15
   detail : 选择设备点击分布式测重按钮，弹出分布式测重页面成功
   data:

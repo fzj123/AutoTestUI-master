@@ -2,8 +2,8 @@
   id: test_add_case_00
   detail : 输入集团名称等，添加成功
   data :
-    facility_name : test_002
-    facility_id : test_002
+    facility_name : test_0010
+    facility_id : test_0010
     Track_number : 1
   check :
      - 添加成功！
@@ -11,7 +11,7 @@
   id: test_add_case_01
   detail : 设备id不能输入中文
   data :
-    facility_name : test_002
+    facility_name : test_0010
     facility_id: 测试设备
     Track_number : 1
   check :
@@ -20,8 +20,8 @@
   id: test_add_case_02
   detail : 设备名称不能重复
   data :
-    facility_name : test_002
-    facility_id: test_002
+    facility_name : test_0010
+    facility_id: test_0010
     Track_number : 1
   check :
      - 直播地址已存在，请先删除直播地址
@@ -29,8 +29,8 @@
   id: test_add_case_03
   detail : 设备id不能重复
   data :
-    facility_name : test_002
-    facility_id: test_002
+    facility_name : test_0010
+    facility_id: test_0010
     Track_number : 1
   check :
      - 设备ID已存在，请修改

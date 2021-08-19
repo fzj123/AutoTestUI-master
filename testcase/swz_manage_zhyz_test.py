@@ -54,14 +54,12 @@ class SwzManageUI(myunit.MyTest):
         po.group_query()
         time.sleep(3)
         po.query()
-        time.sleep(3)
-        self.save_img('集团名称查询后')
-        time.sleep(3)
 
         log.info("检查点-> {0}".format(po.group_query_success_hint()))
         self.assertEqual(po.group_query_success_hint(), test_case['check'][0]), "返回实际结果是->: {0}".format(
             po.group_query_success_hint())
         log.info("返回实际结果是->: {0}".format(po.group_query_success_hint()))
+        self.save_img('集团名称查询后')
 
     @BeautifulReport.add_test_img('猪场名称查询前', '猪场名称查询后')
     def test_pig_query(self):
@@ -80,14 +78,12 @@ class SwzManageUI(myunit.MyTest):
         po.pig_query()
         time.sleep(3)
         po.query()
-        time.sleep(3)
-        self.save_img('猪场名称查询后')
-        time.sleep(3)
 
         log.info("检查点-> {0}".format(po.pig_query_success_hint()))
         self.assertEqual(po.pig_query_success_hint(), test_case['check'][0]), "返回实际结果是->: {0}".format(
             po.pig_query_success_hint())
         log.info("返回实际结果是->: {0}".format(po.pig_query_success_hint()))
+        self.save_img('猪场名称查询后')
 
     @BeautifulReport.add_test_img('栋舍名称查询前', '栋舍名称查询后')
     def test_dong_query(self):
@@ -106,14 +102,12 @@ class SwzManageUI(myunit.MyTest):
         po.dong_query()
         time.sleep(3)
         po.query()
-        time.sleep(3)
-        self.save_img('栋舍名称查询后')
-        time.sleep(3)
 
         log.info("检查点-> {0}".format(po.dong_query_success_hint()))
         self.assertEqual(po.dong_query_success_hint(), test_case['check'][0]), "返回实际结果是->: {0}".format(
             po.dong_query_success_hint())
         log.info("返回实际结果是->: {0}".format(po.dong_query_success_hint()))
+        self.save_img('栋舍名称查询后')
 
     @BeautifulReport.add_test_img('设备id查询前', '设备id查询后')
     def test_facilityid_query(self):
@@ -133,14 +127,13 @@ class SwzManageUI(myunit.MyTest):
         po.facilityid_query(mac_id)
         time.sleep(3)
         po.query()
-        time.sleep(3)
-        self.save_img('设备id查询后')
-        time.sleep(3)
 
         log.info("检查点-> {0}".format(po.facilityid_query_success_hint()))
         self.assertEqual(po.facilityid_query_success_hint(), test_case['check'][0]), "返回实际结果是->: {0}".format(
             po.facilityid_query_success_hint())
         log.info("返回实际结果是->: {0}".format(po.facilityid_query_success_hint()))
+
+        self.save_img('设备id查询后')
 
     @BeautifulReport.add_test_img('重置查询条件前', '重置查询条件后')
     def test_reset_query(self):
@@ -159,13 +152,12 @@ class SwzManageUI(myunit.MyTest):
         self.save_img('重置查询条件前')
         po.reset_query()
         time.sleep(3)
-        self.save_img('重置查询条件后')
-        time.sleep(3)
 
         log.info("检查点-> {0}".format(po.reset_query_success_hint()))
         self.assertEqual(po.reset_query_success_hint(), test_case['check'][0]), "返回实际结果是->: {0}".format(
             po.reset_query_success_hint())
         log.info("返回实际结果是->: {0}".format(po.reset_query_success_hint()))
+        self.save_img('重置查询条件后')
 
     @BeautifulReport.add_test_img('添加守望者前', '添加守望者后')
     def test_add_swz(self):
@@ -183,10 +175,10 @@ class SwzManageUI(myunit.MyTest):
         self.save_img('添加守望者前')
         po.add_swz()
         time.sleep(3)
-        self.save_img('添加守望者后')
 
         log.info("检查点-> {0}".format('查看截图'))
         log.info("显示截图结果".format(test_case['check'][0]))
+        self.save_img('添加守望者后')
 
     @BeautifulReport.add_test_img('下载导入模板前', '下载导入模板后')
     def test_download_swz(self):
@@ -204,10 +196,10 @@ class SwzManageUI(myunit.MyTest):
         self.save_img('下载导入模板前')
         po.download_swz()
         time.sleep(3)
-        self.save_img('下载导入模板后')
 
         log.info("检查点-> {0}".format('查看截图'))
         log.info("显示截图结果".format(test_case['check'][0]))
+        self.save_img('下载导入模板后')
 
     @BeautifulReport.add_test_img('导入模板前', '导入模板后')
     def test_import_swz(self):
@@ -225,10 +217,10 @@ class SwzManageUI(myunit.MyTest):
         self.save_img('导入模板前')
         po.import_swz()
         time.sleep(3)
-        self.save_img('导入模板后')
 
         log.info("检查点-> {0}".format('查看截图'))
         log.info("显示截图结果".format(test_case['check'][0]))
+        self.save_img('导入模板后')
 
     @BeautifulReport.add_test_img('点击控制按钮前', '点击控制按钮后')
     def test_control_swz(self):
@@ -246,10 +238,10 @@ class SwzManageUI(myunit.MyTest):
         self.save_img('点击控制按钮前')
         po.control_swz()
         time.sleep(3)
-        self.save_img('点击控制按钮后')
 
         log.info("检查点-> {0}".format('查看截图'))
         log.info("显示截图结果".format(test_case['check'][0]))
+        self.save_img('点击控制按钮后')
 
     @BeautifulReport.add_test_img('点击编辑按钮前', '点击编辑按钮后')
     def test_edit_swz(self):
@@ -267,10 +259,10 @@ class SwzManageUI(myunit.MyTest):
         self.save_img('点击编辑按钮前')
         po.edit_swz()
         time.sleep(3)
-        self.save_img('点击编辑按钮后')
 
         log.info("检查点-> {0}".format('查看截图'))
         log.info("显示截图结果".format(test_case['check'][0]))
+        self.save_img('点击编辑按钮后')
 
     @BeautifulReport.add_test_img('点击配置管理按钮前', '点击配置管理按钮后')
     def test_conf_swz(self):
@@ -288,10 +280,10 @@ class SwzManageUI(myunit.MyTest):
         self.save_img('点击配置管理按钮前')
         po.conf_swz()
         time.sleep(3)
-        self.save_img('点击配置管理按钮后')
 
         log.info("检查点-> {0}".format('查看截图'))
         log.info("显示截图结果".format(test_case['check'][0]))
+        self.save_img('点击配置管理按钮后')
 
     @BeautifulReport.add_test_img('点击栏位管理按钮前', '点击栏位管理按钮后')
     def test_fieldList_swz(self):
@@ -309,10 +301,10 @@ class SwzManageUI(myunit.MyTest):
         self.save_img('点击栏位管理按钮前')
         po.fieldList_swz()
         time.sleep(3)
-        self.save_img('点击栏位管理按钮后')
 
         log.info("检查点-> {0}".format('查看截图'))
         log.info("显示截图结果".format(test_case['check'][0]))
+        self.save_img('点击栏位管理按钮后')
 
     @BeautifulReport.add_test_img('点击OTA升级按钮前', '点击OTA升级按钮后')
     def test_linuxota_swz(self):
@@ -330,10 +322,10 @@ class SwzManageUI(myunit.MyTest):
         self.save_img('点击OTA升级按钮前')
         po.linuxota_swz()
         time.sleep(3)
-        self.save_img('点击OTA升级按钮后')
 
         log.info("检查点-> {0}".format('查看截图'))
         log.info("显示截图结果".format(test_case['check'][0]))
+        self.save_img('点击OTA升级按钮后')
 
     @BeautifulReport.add_test_img('点击故障历史按钮前', '点击故障历史按钮后')
     def test_faultList_swz(self):
@@ -351,10 +343,9 @@ class SwzManageUI(myunit.MyTest):
         self.save_img('点击故障历史按钮前')
         po.faultList_swz()
         time.sleep(3)
-        self.save_img('点击故障历史按钮后')
-
         log.info("检查点-> {0}".format('查看截图'))
         log.info("显示截图结果".format(test_case['check'][0]))
+        self.save_img('点击故障历史按钮后')
 
     @BeautifulReport.add_test_img('点击故障报警按钮前', '点击故障报警按钮后')
     def test_fault_swz(self):
@@ -372,31 +363,10 @@ class SwzManageUI(myunit.MyTest):
         self.save_img('点击故障报警按钮前')
         po.fault_swz()
         time.sleep(3)
+        log.info("检查点-> {0}".format('查看截图'))
+        log.info("显示截图结果".format(test_case['check'][0]))
         self.save_img('点击故障报警按钮后')
 
-        log.info("检查点-> {0}".format('查看截图'))
-        log.info("显示截图结果".format(test_case['check'][0]))
-
-    @BeautifulReport.add_test_img('点击分布式测重按钮前', '点击分布式测重按钮后')
-    def test_outFactory_swz(self):
-        """
-        点击分布式测重按钮，断言-查看截图
-        """
-        test_case = testData.get_case(15)
-        log.info("当前执行测试用例ID-> {0} ; 测试点-> {1}".format(test_case['id'], test_case['detail']))
-
-        # 打开配置管理页面
-        po = manage(self.driver)
-        po.open()
-        time.sleep(3)
-        # 点击分布式测重按钮
-        self.save_img('点击分布式测重按钮前')
-        po.outFactory_swz()
-        time.sleep(3)
-        self.save_img('点击分布式测重按钮后')
-
-        log.info("检查点-> {0}".format('查看截图'))
-        log.info("显示截图结果".format(test_case['check'][0]))
 
 if __name__ =="__main__":
     unittest.main()   

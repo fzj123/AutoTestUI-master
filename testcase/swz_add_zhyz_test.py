@@ -53,12 +53,16 @@ class SwzAddUI(myunit.MyTest):
         # 添加守望者配置
         self.save_img('添加守望者前')
         po.facility_save(facility_name,facility_id,Track_number)
-        self.save_img('添加守望者后')
+        # 获取消息框信息
+        text = po.alert_text()
 
-        log.info("检查点-> {0}".format(po.alert_text()))
-        self.assertEqual(po.alert_text(), test_case['check'][0]), "返回实际结果是->: {0}".format(
-            po.alert_text())
-        log.info("返回实际结果是->: {0}".format(po.alert_text()))
+        log.info("检查点-> {0}".format(text))
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
+            text)
+        log.info("返回实际结果是->: {0}".format(text))
+        po.alert_accept()
+
+        self.save_img('添加守望者后')
 
     @BeautifulReport.add_test_img('设备id不能输入中文前', '设备id不能输入中文后')
     def test_facilityid_input(self):
@@ -81,13 +85,13 @@ class SwzAddUI(myunit.MyTest):
         po.facility_save(facility_name,facility_id,Track_number)
         # 获取消息框信息
         text = po.alter_fail()
-        self.save_img('设备id不能输入中文后')
 
         log.info("检查点-> {0}".format(text))
         self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
             text)
         log.info("返回实际结果是->: {0}".format(text))
 
+        self.save_img('设备id不能输入中文后')
 
     @BeautifulReport.add_test_img('设备名称不能重复前', '设备名称不能重复后')
     def test_facilityname_input(self):
@@ -108,12 +112,17 @@ class SwzAddUI(myunit.MyTest):
         # 添加守望者配置
         self.save_img('设备名称不能重复前')
         po.facility_save(facility_name,facility_id,Track_number)
-        self.save_img('设备名称不能重复后')
 
-        log.info("检查点-> {0}".format(po.alert_text()))
-        self.assertEqual(po.alert_text(), test_case['check'][0]), "返回实际结果是->: {0}".format(
-            po.alert_text())
-        log.info("返回实际结果是->: {0}".format(po.alert_text()))
+        # 获取消息框信息
+        text = po.alert_text()
+
+        log.info("检查点-> {0}".format(text))
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
+            text)
+        log.info("返回实际结果是->: {0}".format(text))
+        po.alert_accept()
+
+        self.save_img('设备名称不能重复后')
 
     @BeautifulReport.add_test_img('设备id不能重复前', '设备id不能重复后')
     def test_id_input(self):
@@ -134,12 +143,17 @@ class SwzAddUI(myunit.MyTest):
         # 添加守望者配置
         self.save_img('设备id不能重复前')
         po.facility_save(facility_name, facility_id, Track_number)
-        self.save_img('设备id不能重复后')
 
-        log.info("检查点-> {0}".format(po.alert_text()))
-        self.assertEqual(po.alert_text(), test_case['check'][0]), "返回实际结果是->: {0}".format(
-            po.alert_text())
-        log.info("返回实际结果是->: {0}".format(po.alert_text()))
+        # 获取消息框信息
+        text = po.alert_text()
+
+        log.info("检查点-> {0}".format(text))
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
+            text)
+        log.info("返回实际结果是->: {0}".format(text))
+        po.alert_accept()
+
+        self.save_img('设备id不能重复后')
 
     @BeautifulReport.add_test_img('集团名称为空前', '集团名称为空后')
     def test_groupname_input(self):
@@ -158,12 +172,13 @@ class SwzAddUI(myunit.MyTest):
         po.select_input()
         # 获取消息框信息
         text = po.alter_fail()
-        self.save_img('集团名称为空后')
 
         log.info("检查点-> {0}".format(text))
         self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
             text)
         log.info("返回实际结果是->: {0}".format(text))
+
+        self.save_img('集团名称为空后')
 
     @BeautifulReport.add_test_img('设备名称为空前', '设备名称为空后')
     def test_facilityname_input(self):
@@ -186,12 +201,13 @@ class SwzAddUI(myunit.MyTest):
         po.facility_save(facility_name, facility_id, Track_number)
         #获取消息框信息
         text = po.alter_fail()
-        self.save_img('设备名称为空后')
 
         log.info("检查点-> {0}".format(text))
         self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
             text)
         log.info("返回实际结果是->: {0}".format(text))
+
+        self.save_img('设备名称为空后')
 
     @BeautifulReport.add_test_img('设备id为空前', '设备id为空后')
     def test_facilityid_input(self):
@@ -214,12 +230,13 @@ class SwzAddUI(myunit.MyTest):
         po.facility_save(facility_name, facility_id, Track_number)
         # 获取消息框信息
         text = po.alter_fail()
-        self.save_img('设备id为空后')
 
         log.info("检查点-> {0}".format(text))
         self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
             text)
         log.info("返回实际结果是->: {0}".format(text))
+
+        self.save_img('设备id为空后')
 
     @BeautifulReport.add_test_img('轨道编号为空前', '轨道编号为空后')
     def test_trackid_input(self):
@@ -242,13 +259,15 @@ class SwzAddUI(myunit.MyTest):
         po.facility_save(facility_name, facility_id, Track_number)
         # 获取消息框信息
         text = po.alter_fail()
-        self.save_img('轨道编号为空后')
 
         log.info("检查点-> {0}".format(text))
         self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
             text)
         log.info("返回实际结果是->: {0}".format(text))
 
+        self.save_img('轨道编号为空后')
 
 
+if __name__ =="__main__":
+    unittest.main()
 
