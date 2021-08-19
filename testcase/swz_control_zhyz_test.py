@@ -52,9 +52,12 @@ class SwzControlUI(myunit.MyTest):
         # 点击提交按钮，提示配置成功！
         self.save_img('点击提交按钮前')
         po.manual_switch(query_id)
-        self.save_img('点击提交按钮后')
+        # 获取消息框信息
+        text = po.alert_text()
 
-        log.info("检查点-> {0}".format(po.auto_success()))
-        self.assertEqual(po.auto_success(), test_case['check'][0]), "返回实际结果是->: {0}".format(
-            po.auto_success())
-        log.info("返回实际结果是->: {0}".format(po.auto_success()))
+        log.info("检查点-> {0}".format(text))
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
+            text)
+        log.info("返回实际结果是->: {0}".format(text))
+        po.alert_accept()
+        self.save_img('点击提交按钮后')

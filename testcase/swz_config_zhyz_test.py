@@ -56,12 +56,16 @@ class SwzConfigUI(myunit.MyTest):
         # 修改配置保存成功
         self.save_img('修改配置保存成功前')
         po.config_save(query_id,review_number,into_Battery,out_Battery,collect,interval)
-        self.save_img('修改配置保存成功后')
+        # 获取消息框信息
+        text = po.alert_text()
 
-        log.info("检查点-> {0}".format(po.alert_text()))
-        self.assertEqual(po.alert_text(), test_case['check'][0]), "返回实际结果是->: {0}".format(
-            po.alert_text())
-        log.info("返回实际结果是->: {0}".format(po.alert_text()))
+        log.info("检查点-> {0}".format(text))
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
+            text)
+        log.info("返回实际结果是->: {0}".format(text))
+        po.alert_accept()
+
+        self.save_img('修改配置保存成功后')
 
 
 
