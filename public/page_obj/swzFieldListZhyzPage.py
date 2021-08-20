@@ -46,8 +46,10 @@ class fieldList(Page):
     fieldList_go_on_loc = (By.XPATH, testData.get_elementinfo(9))
     # 向下移动按钮
     fieldList_go_down_loc = (By.XPATH, testData.get_elementinfo(10))
-    # 向下移动按钮
+    # 保存按钮
     fieldList_submit_loc = (By.XPATH, testData.get_elementinfo(11))
+    # 选择栏位
+    fieldList_select_loc = (By.XPATH, testData.get_elementinfo(12))
 
     def fieldList_click(self):
         """
@@ -117,6 +119,11 @@ class fieldList(Page):
         """
         self.find_element(*self.fieldList_submit_loc).click()
 
+    def select_field(self):
+        """
+        选择栏位
+        """
+        self.find_elements(*self.fieldList_select_loc)[3].click()
 
 
     def submit_field(self,query_id):
@@ -128,6 +135,69 @@ class fieldList(Page):
         self.switch_editpage()
         self.submit_click()
 
+    def query_field(self,query_id,keyword):
+        """
+        待选择栏位检索
+        """
+        self.manage_facilityid_query(query_id)
+        self.fieldList_click()
+        self.switch_editpage()
+        self.keyword_input(keyword)
+
+
+    def move_right_field(self,query_id):
+        """
+        向右侧移动栏位信息
+        """
+        self.manage_facilityid_query(query_id)
+        self.fieldList_click()
+        self.switch_editpage()
+        time.sleep(1)
+        self.field_wait_select()
+        self.go_right_click()
+
+    def move_left_field(self,query_id):
+        """
+        向左侧移动栏位信息
+        """
+        self.manage_facilityid_query(query_id)
+        self.fieldList_click()
+        self.switch_editpage()
+        time.sleep(1)
+        self.field_wait_select()
+        self.go_right_click()
+        time.sleep(1)
+        self.field_select_select()
+        self.go_left_click()
+
+
+    def go_on_field(self,query_id):
+        """
+        栏位向上移动
+        """
+        self.manage_facilityid_query(query_id)
+        self.fieldList_click()
+        self.switch_editpage()
+        time.sleep(1)
+        self.field_wait_select()
+        self.go_right_click()
+        time.sleep(1)
+        self.select_field()
+        self.go_on_click()
+
+    def go_down_field(self,query_id):
+        """
+        栏位向下移动
+        """
+        self.manage_facilityid_query(query_id)
+        self.fieldList_click()
+        self.switch_editpage()
+        time.sleep(1)
+        self.field_wait_select()
+        self.go_right_click()
+        time.sleep(1)
+        self.select_field()
+        self.go_down_click()
 
 
     def alert_text(self):

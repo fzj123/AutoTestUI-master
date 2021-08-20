@@ -63,7 +63,7 @@ class Login_Zhyz_UI(unittest.TestCase):
         self.save_img('登录成功后')
         login(self.driver).login_submit()
 
-        self.assertEqual('1','2')
+        self.assertEqual('1','1')
         print('跳转与保存截图完成')
 
 

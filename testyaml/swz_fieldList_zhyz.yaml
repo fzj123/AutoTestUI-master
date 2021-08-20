@@ -23,11 +23,11 @@ testcase:
         find_type: XPATH
         operate_type: input
         info: 关键字检索输入框-04
-      - element_info: //*[@id="test5"]/div/div[1]/ul/li[1]/div/i
+      - element_info: //*[@id="test5"]/div/div[1]/div[1]/div
         find_type: XPATH
         operate_type: input
         info: 待选择栏位复选框-05
-      - element_info: //*[@id="test5"]/div/div[3]/ul/li[1]/div/i
+      - element_info: //*[@id="test5"]/div/div[3]/div[1]/div
         find_type: XPATH
         operate_type: input
         info: 已选择栏位复选框-06
@@ -51,6 +51,10 @@ testcase:
         find_type: XPATH
         operate_type: input
         info: 提交按钮-11
+      - element_info: //*[@id="test5"]/div/div[3]/ul/li
+        find_type: XPATH
+        operate_type: input
+        info: 选择1号栏-12
 check:
       - element_info: //*[@id="layui-layer1"]/div
         find_type: XPATH

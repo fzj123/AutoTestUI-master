@@ -18,7 +18,7 @@ from BeautifulReport import BeautifulReport
 def add_case(test_path=setting.TEST_DIR):
     """加载所有的测试用例"""
     #discover = unittest.defaultTestLoader.discover(test_path, pattern='*_test.py')
-    discover = unittest.defaultTestLoader.discover(test_path, pattern='*swz_edit_zhyz_test.py')
+    discover = unittest.defaultTestLoader.discover(test_path, pattern='*swz_fieldList_zhyz_test.py')
 
     return discover
 

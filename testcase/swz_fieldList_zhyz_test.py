@@ -37,13 +37,12 @@ class SwzFieldListUI(myunit.MyTest):
     @BeautifulReport.add_test_img('点击提交按钮前', '点击提交按钮后')
     def test_filld_save(self):
         """
-        点击提交按钮，提示配置成功！
+        保存栏位信息，提示配置成功！
         """
         test_case = testData.get_case(0)
         log.info("当前执行测试用例ID-> {0} ; 测试点-> {1}".format(test_case['id'], test_case['detail']))
 
         query_id = test_case['data']['publlic_facilityid']
-
 
         # 打开配置管理页面
         po = fieldList(self.driver)
@@ -63,5 +62,120 @@ class SwzFieldListUI(myunit.MyTest):
 
         self.save_img('点击提交按钮后')
 
+    @BeautifulReport.add_test_img('关键词搜索前', '关键词搜索后')
+    def test_filld_query(self):
+        """
+        关键词搜索
+        """
+        test_case = testData.get_case(1)
+        log.info("当前执行测试用例ID-> {0} ; 测试点-> {1}".format(test_case['id'], test_case['detail']))
+
+        query_id = test_case['data']['publlic_facilityid']
+        keyword = test_case['data']['key_query']
+
+        # 打开配置管理页面
+        po = fieldList(self.driver)
+        po.open()
+        time.sleep(3)
+        #关键词搜索
+        self.save_img('关键词搜索前')
+        po.query_field(query_id,keyword)
+
+        log.info("检查点-> {0}".format('查看截图'))
+        log.info("显示截图结果".format(test_case['check'][0]))
+
+        self.save_img('关键词搜索后')
+
+    @BeautifulReport.add_test_img('待选择栏位移动到已选择栏位前', '待选择栏位移动到已选择栏位后')
+    def test_filld_right_move(self):
+        """
+        待选择栏位移动到已选择栏位
+        """
+        test_case = testData.get_case(2)
+        log.info("当前执行测试用例ID-> {0} ; 测试点-> {1}".format(test_case['id'], test_case['detail']))
+
+        query_id = test_case['data']['publlic_facilityid']
 
 
+        # 打开配置管理页面
+        po = fieldList(self.driver)
+        po.open()
+        time.sleep(3)
+        # 待选择栏位移动到已选择栏位
+        self.save_img('待选择栏位移动到已选择栏位前')
+        po.move_right_field(query_id)
+
+        log.info("检查点-> {0}".format('查看截图'))
+        log.info("显示截图结果".format(test_case['check'][0]))
+
+        self.save_img('待选择栏位移动到已选择栏位后')
+
+    @BeautifulReport.add_test_img('已选择栏位移动到待选择栏位前', '已选择栏位移动到待选择栏位后')
+    def test_filld_left_move(self):
+        """
+        已选择栏位移动到待选择栏位
+        """
+        test_case = testData.get_case(3)
+        log.info("当前执行测试用例ID-> {0} ; 测试点-> {1}".format(test_case['id'], test_case['detail']))
+
+        query_id = test_case['data']['publlic_facilityid']
+
+
+        # 打开配置管理页面
+        po = fieldList(self.driver)
+        po.open()
+        time.sleep(3)
+        # 已选择栏位移动到待选择栏位
+        self.save_img('已选择栏位移动到待选择栏位前')
+        po.move_left_field(query_id)
+
+        log.info("检查点-> {0}".format('查看截图'))
+        log.info("显示截图结果".format(test_case['check'][0]))
+
+        self.save_img('已选择栏位移动到待选择栏位后')
+
+    @BeautifulReport.add_test_img('栏位向上移动前', '栏位向上移动后')
+    def test_filld_goon(self):
+        """
+        栏位向上移动
+        """
+        test_case = testData.get_case(4)
+        log.info("当前执行测试用例ID-> {0} ; 测试点-> {1}".format(test_case['id'], test_case['detail']))
+
+        query_id = test_case['data']['publlic_facilityid']
+
+        # 打开配置管理页面
+        po = fieldList(self.driver)
+        po.open()
+        time.sleep(3)
+        # 栏位向上移动
+        self.save_img('栏位向上移动前')
+        po.go_on_field(query_id)
+
+        log.info("检查点-> {0}".format('查看截图'))
+        log.info("显示截图结果".format(test_case['check'][0]))
+
+        self.save_img('栏位向上移动后')
+
+    @BeautifulReport.add_test_img('栏位向下移动前', '栏位向下移动后')
+    def test_filld_godown(self):
+        """
+        栏位向下移动
+        """
+        test_case = testData.get_case(5)
+        log.info("当前执行测试用例ID-> {0} ; 测试点-> {1}".format(test_case['id'], test_case['detail']))
+
+        query_id = test_case['data']['publlic_facilityid']
+
+        # 打开配置管理页面
+        po = fieldList(self.driver)
+        po.open()
+        time.sleep(3)
+        # 栏位向下移动
+        self.save_img('栏位向下移动前')
+        po.go_down_field(query_id)
+
+        log.info("检查点-> {0}".format('查看截图'))
+        log.info("显示截图结果".format(test_case['check'][0]))
+
+        self.save_img('栏位向下移动后')

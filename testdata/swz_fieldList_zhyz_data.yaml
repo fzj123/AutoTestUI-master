@@ -12,7 +12,7 @@
     publlic_facilityid : 'testid'
     key_query : '充电仓'
   check :
-     - 截图
+     - 显示关键字检索结果
 -
   id: test_fieldList_case_02
   detail : 待选择栏位移动到已选择栏位
@@ -29,14 +29,14 @@
      - 截图
 -
   id: test_fieldList_case_04
-  detail : 已选择栏位，数据向上移动
+  detail : 已选择栏位，栏位向上移动
   data :
     publlic_facilityid : 'testid'
   check :
      - 截图
 -
   id: test_fieldList_case_05
-  detail : 已选择栏位，数据向下移动
+  detail : 已选择栏位，栏位向下移动
   data :
     publlic_facilityid : 'testid'
   check :
