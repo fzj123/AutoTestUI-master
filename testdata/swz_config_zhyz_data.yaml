@@ -11,15 +11,15 @@
   check :
      - 配置已下发，请2分钟后查看控制界面中是否是最新配置结果!
 -
-  id: est_config_case_01
+  id: test_config_case_01
   detail : 入仓电量不能小于3000
   data :
     publlic_facilityid : 'testid'
-    into_Battery : 3000
+    into_Battery : 1000
   check :
      - 电量下限不能小于3000！
 -
-  id: est_config_case_02
+  id: test_config_case_02
   detail : 出仓电量不能小于入仓电量阈值！
   data :
     publlic_facilityid : 'testid'
@@ -27,7 +27,7 @@
   check :
      - 出仓电量不能小于入仓电量阈值！
 -
-  id: est_config_case_03
+  id: test_config_case_03
   detail : 采集图片不能小于5张
   data :
     publlic_facilityid : 'testid'
@@ -35,14 +35,15 @@
   check :
      - 超出采集图片数量范围（5~100张）！
 -
-  id: est_config_case_04
+  id: test_config_case_04
   detail : 采集时间不能小于10s
   data :
     publlic_facilityid : 'testid'
+    interval : 10
   check :
      - 超出采集时间范围（10~3600秒）！
 -
-  id: est_config_case_05
+  id: test_config_case_05
   detail : 启动时间不能为空
   data :
     publlic_facilityid : 'testid'

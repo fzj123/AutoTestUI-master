@@ -107,6 +107,11 @@ class facilityConfig(Page):
         element = self.find_element(*self.facilityconfig_into_Battery_loc)
         element.send_keys(Keys.CONTROL, 'a')
 
+    def into_Battery_click(self):
+        """
+        入仓电量输入框-清空
+        """
+        self.find_element(*self.facilityconfig_into_Battery_loc).click()
 
     def out_Battery_input(self,out):
         """
@@ -120,6 +125,12 @@ class facilityConfig(Page):
         """
         element = self.find_element(*self.facilityconfig_out_Battery_loc)
         element.send_keys(Keys.CONTROL, 'a')
+
+    def out_Battery_click(self):
+        """
+        出仓电量输入框-点击
+        """
+        self.find_element(*self.facilityconfig_out_Battery_loc).click()
 
     def depth_click(self):
         """
@@ -253,10 +264,71 @@ class facilityConfig(Page):
         self.canvas_click()
         self.savebtn_click()
 
+    def into_Battery(self,query_id,into_Battery):
+        """
+        修改入仓电量
+        """
+        self.manage_facilityid_query(query_id)
+        self.config_click()
+        self.switch_editpage()
+        time.sleep(1)
+        self.into_Battery_clear()
+        self.into_Battery_input(into_Battery)
+        time.sleep(1)
+        self.out_Battery_click()
 
+    def out_Battery(self,query_id,out_Battery):
+        """
+        修改出仓电量
+        """
+        self.manage_facilityid_query(query_id)
+        self.config_click()
+        self.switch_editpage()
+        time.sleep(1)
+        self.out_Battery_clear()
+        self.out_Battery_input(out_Battery)
+        time.sleep(1)
+        self.out_Battery_click()
 
+    def depth_photo(self,query_id,collect):
+        """
+        修改采集图片
+        """
+        self.manage_facilityid_query(query_id)
+        self.config_click()
+        self.switch_editpage()
+        time.sleep(1)
+        # 判断单选框是否选中
+        depth = self.depth_select()
+        if depth:
+            self.depth_click()
+            self.depthphoto_clear()
+            self.depthphoto_input(collect)
 
+    def depth_time(self,query_id,interval):
+        """
+        修改采集时间
+        """
+        self.manage_facilityid_query(query_id)
+        self.config_click()
+        self.switch_editpage()
+        time.sleep(1)
+        # 判断单选框是否选中
+        depth = self.depth_select()
+        if depth:
+            self.depth_click()
+            self.depthtime_clear()
+            self.depthtime_input(interval)
 
+    def clear_time(self,query_id):
+        """
+        清空启动时间
+        """
+        self.manage_facilityid_query(query_id)
+        self.config_click()
+        self.switch_editpage()
+        time.sleep(1)
+        self.clearbtn_click()
 
 
     def alert_text(self):

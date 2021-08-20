@@ -56,8 +56,7 @@ class SwzControlUI(myunit.MyTest):
         text = po.alert_text()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
         po.alert_accept()
         self.save_img('点击提交按钮后')

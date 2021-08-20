@@ -57,8 +57,7 @@ class SwzEditUI(myunit.MyTest):
         po.alert_accept()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
 
         self.save_img('修改设备名称后')
@@ -87,8 +86,7 @@ class SwzEditUI(myunit.MyTest):
         po.alert_accept()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
 
         self.save_img('修改设备保存id后')
@@ -117,8 +115,7 @@ class SwzEditUI(myunit.MyTest):
         text = po.alert_text()
         po.alert_accept()
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
         self.save_img('修改轨道编号后')
 
@@ -143,8 +140,7 @@ class SwzEditUI(myunit.MyTest):
         text = po.alert_text()
         po.alert_accept()
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
         self.save_img('修改轨道类型后')
 
@@ -169,8 +165,7 @@ class SwzEditUI(myunit.MyTest):
         text = po.alert_text()
         po.alert_accept()
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
         self.save_img('修改栏位类型后')
 
@@ -196,8 +191,7 @@ class SwzEditUI(myunit.MyTest):
         #获取消息框信息
         text = po.alter_fail()
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
 
         self.save_img('设备id输入中文后')
@@ -224,8 +218,7 @@ class SwzEditUI(myunit.MyTest):
         text = po.alter_fail()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
         self.save_img('设备名称为空后')
 
@@ -251,8 +244,7 @@ class SwzEditUI(myunit.MyTest):
         text = po.alter_fail()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
         self.save_img('轨道编号为空后')
 

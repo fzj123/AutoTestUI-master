@@ -55,10 +55,12 @@ class SwzManageUI(myunit.MyTest):
         time.sleep(3)
         po.query()
 
-        log.info("检查点-> {0}".format(po.group_query_success_hint()))
-        self.assertEqual(po.group_query_success_hint(), test_case['check'][0]), "返回实际结果是->: {0}".format(
-            po.group_query_success_hint())
-        log.info("返回实际结果是->: {0}".format(po.group_query_success_hint()))
+        # 获取断言信息
+        text = po.group_query_success_hint()
+
+        log.info("检查点-> {0}".format(text))
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
+        log.info("返回实际结果是->: {0}".format(text))
         self.save_img('集团名称查询后')
 
     @BeautifulReport.add_test_img('猪场名称查询前', '猪场名称查询后')

@@ -57,8 +57,7 @@ class SwzAddUI(myunit.MyTest):
         text = po.alert_text()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
         po.alert_accept()
 
@@ -87,8 +86,7 @@ class SwzAddUI(myunit.MyTest):
         text = po.alter_fail()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
 
         self.save_img('设备id不能输入中文后')
@@ -117,8 +115,7 @@ class SwzAddUI(myunit.MyTest):
         text = po.alert_text()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
         po.alert_accept()
 
@@ -148,8 +145,7 @@ class SwzAddUI(myunit.MyTest):
         text = po.alert_text()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
         po.alert_accept()
 
@@ -174,8 +170,7 @@ class SwzAddUI(myunit.MyTest):
         text = po.alter_fail()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
 
         self.save_img('集团名称为空后')
@@ -203,8 +198,7 @@ class SwzAddUI(myunit.MyTest):
         text = po.alter_fail()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
 
         self.save_img('设备名称为空后')
@@ -232,8 +226,7 @@ class SwzAddUI(myunit.MyTest):
         text = po.alter_fail()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
 
         self.save_img('设备id为空后')
@@ -261,8 +254,7 @@ class SwzAddUI(myunit.MyTest):
         text = po.alter_fail()
 
         log.info("检查点-> {0}".format(text))
-        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(
-            text)
+        self.assertEqual(text, test_case['check'][0]), "返回实际结果是->: {0}".format(text)
         log.info("返回实际结果是->: {0}".format(text))
 
         self.save_img('轨道编号为空后')
